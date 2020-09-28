@@ -1,0 +1,119 @@
+#wrap{ 
+    margin:0 auto;
+}
+#nheader{
+    background-image:url(5.jpg);
+    background-position: center top;
+    font-style:italic;
+    color:gold;
+    font-size: 80px;
+    width: 533px;
+    margin:0 auto;
+    padding: 400px;
+    padding-top: 5px;
+
+}
+h1{
+    color: gold;
+    background-color: black;
+    margin:0 auto;
+    padding-left:250px;
+    
+
+}
+#npara{
+    color: black;
+    font-size: 30px;
+    background-color: powderblue;
+    text-align :center;
+    padding-top: 2px;
+    padding-bottom:1px;
+}
+h3{
+    text-align: right;
+    color: maroon;
+}
+p{
+    text-align: right;
+}
+h4{
+    text-align: right;
+    color: maroon;
+}
+.redColor{
+    color:darkblue;
+}
+.book{
+    text-align: center;
+}
+.book input{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    direction: rtl;
+}
+.book input[type="submit"]{
+font-size: 25px;
+color:black;
+background:mediumspringgreen;
+border: none;
+}
+.d1{
+    padding: 20%;
+}
+table{
+    background: #81ecec;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid maroon;
+    padding: 20px;
+}
+#zar:hover{
+    background-color: red;
+    color:white;
+}
+#zar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+li{
+    list-style-type: none;
+    padding: 15px 20px;
+    border-bottom: 1px solid #9f9f9f;
+}
+li:hover{
+    background-color: #dfdfdf;
+    transition-duration:0.2s; 
+}
+.selected{
+    background-color: #99ffaa;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#text{
+    font-size: 38px;
+    text-align:center;
+}
+#zar{
+    display: inline-block;
+    padding:10px 25px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#fff;
+    background-color: #4caf50;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
